@@ -128,4 +128,129 @@
 - **A. Amazon Simple Queue Service (Amazon SQS) and AWS Lambda** ✅  
 - B. AWS Data Pipeline and Amazon EC2  
 - C. Amazon Kinesis and Amazon Athena  
-- D. AWS Amplify and AWS AppSync  
+- D. AWS Amplify and AWS AppSync
+
+
+## AWS Cloud Questions and Answers (Continued)
+
+### Q22: What are some advantages of using Amazon EC2 instances to host applications in the AWS Cloud instead of on premises? (Choose two.)
+- A. EC2 includes operating system patch management.
+- **B. EC2 integrates with Amazon VPC, AWS CloudTrail, and AWS Identity and Access Management (IAM).** ✅
+- C. EC2 has a 100% service level agreement (SLA).
+- **D. EC2 has a flexible, pay-as-you-go pricing model.** ✅
+- E. EC2 has automatic storage cost optimization.
+
+### Q23: A user needs to determine whether an Amazon EC2 instance's security groups were modified in the last month. How can the user see if a change was made?
+- A. Use Amazon EC2 to see if the security group was changed.
+- B. Use AWS Identity and Access Management (IAM) to see which user or role changed the security group.
+- **C. Use AWS CloudTrail to see if the security group was changed.** ✅
+- D. Use Amazon CloudWatch to see if the security group was changed.
+
+### Q24: Which AWS service will help protect applications running on AWS from DDoS attacks?
+- A. Amazon GuardDuty
+- B. AWS WAF
+- **C. AWS Shield** ✅
+- D. Amazon Inspector
+
+### Q25: Which AWS service or feature acts as a firewall for Amazon EC2 instances?
+- A. Network ACL
+- B. Elastic network interface
+- C. Amazon VPC
+- **D. Security group** ✅
+
+### Q26: How does the AWS Cloud pricing model differ from the traditional on-premises storage pricing model?
+- A. AWS resources do not incur costs
+- B. There are no infrastructure operating costs
+- **C. There are no upfront cost commitments** ✅
+- D. There are no software licensing costs
+
+### Q27: A company has a single Amazon EC2 instance. The company wants to adopt a highly available architecture. What can the company do to meet this requirement?
+- A. Scale vertically to a larger EC2 instance size.
+- **B. Scale horizontally across multiple Availability Zones.** ✅
+- C. Purchase an EC2 Dedicated Instance.
+- D. Change the EC2 instance family to a compute optimized instance.
+
+### Q28: A company's on-premises application deployment cycle was 3-4 weeks. After migrating to the AWS Cloud, the company can deploy the application in 2-3 days. Which benefit has this company experienced by moving to the AWS Cloud?
+- A. Elasticity
+- B. Flexibility
+- **C. Agility** ✅
+- D. Resilience
+
+### Q29: Which of the following are included in AWS Enterprise Support? (Choose two.)
+- **A. AWS technical account manager (TAM)** ✅
+- B. AWS partner-led support
+- C. AWS Professional Services
+- **D. Support of third-party software integration to AWS** ✅
+- E. 5-minute response time for critical issue
+
+### Q30: A global media company uses AWS Organizations to manage multiple AWS accounts. Which AWS service or feature can the company use to limit the access to AWS services for member accounts?
+- A. AWS Identity and Access Management (IAM)
+- **B. Service control policies (SCPs)** ✅
+- C. Organizational units (OUs)
+- D. Access control lists (ACLs)
+
+### Q31: A company wants to limit its employees' AWS access to a portfolio of predefined AWS resources. Which AWS solution should the company use to meet this requirement?
+- A. AWS Config
+- B. AWS software development kits (SDKs)
+- **C. AWS Service Catalog** ✅
+- D. AWS AppSync
+
+### Q32: An online company was running a workload on premises and was struggling to launch new products and features. After migrating the workload to AWS, the company can quickly launch products and features and can scale its infrastructure as required. Which AWS Cloud value proposition does this scenario describe?
+- **A. Business agility** ✅
+- B. High availability
+- C. Security
+- D. Centralized auditing
+
+### Q33: Which of the following are advantages of the AWS Cloud? (Choose two.)
+- A. AWS management of user-owned infrastructure
+- **B. Ability to quickly change required capacity** ✅
+- **C. High economies of scale** ✅
+- D. Increased deployment time to market
+- E. Increased fixed expenses
+
+### Q34: AWS has the ability to achieve lower pay-as-you-go pricing by aggregating usage across hundreds of thousands of users. This describes which advantage of the AWS Cloud?
+- A. Launch globally in minutes
+- B. Increase speed and agility
+- **C. High economies of scale** ✅
+- D. No guessing about compute capacity
+
+### Q35: A company has a database server that is always running. The company hosts the server on Amazon EC2 instances. The instance sizes are suitable for the workload. The workload will run for 1 year. Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?
+- **A. Standard Reserved Instances** ✅
+- B. On-Demand Instances
+- C. Spot Instances
+- D. Convertible Reserved Instances
+
+### Q36: A company is developing a mobile app that needs a high-performance NoSQL database. Which AWS services could the company use for this database? (Choose two.)
+- A. Amazon Aurora
+- B. Amazon RDS
+- C. Amazon Redshift
+- **D. Amazon DocumentDB (with MongoDB compatibility)** ✅
+- **E. Amazon DynamoDB** ✅
+
+### Q37: Which tasks are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)
+- A. Patch the Amazon EC2 guest operating system.
+- **B. Upgrade the firmware of the network infrastructure.** ✅
+- C. Apply password rotation for IAM users.
+- **D. Maintain the physical security of edge locations.** ✅
+- E. Maintain least privilege access to the root user account.
+
+### Q38: Which of the following are features of network ACLs as they are used in the AWS Cloud? (Choose two.)
+- **A. They are stateless.** ✅
+- B. They are stateful.
+- C. They evaluate all rules before allowing traffic.
+- **D. They process rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic.** ✅
+- E. They operate at the instance level.
+
+### Q39: Which AWS service or feature can be used to create a private connection between an on-premises workload and an AWS Cloud workload?
+- A. Amazon Route 53
+- B. Amazon Macie
+- **C. AWS Direct Connect** ✅
+- D. AWS PrivateLink
+
+### Q40: A company recently deployed an Amazon RDS instance in its VPC. The company needs to implement a stateful firewall to limit traffic to the private corporate network. Which AWS service or feature should the company use to limit network traffic directly to its RDS instance?
+- A. Network ACLs
+- **B. Security groups** ✅
+- C. AWS WAF
+- D. Amazon GuardDuty
+
+
